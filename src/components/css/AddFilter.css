@@ -1,0 +1,42 @@
+.Filter{
+    width: 0vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    background: #FFFFFF;
+    box-shadow: -5px 0px 7px rgba(0, 0, 0, 0.1);
+    transition: width 1s;
+    overflow: hidden;
+}
+
+.filterheader{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    background: #E1F5FA;
+    padding: 10px;
+}
+
+#FilterOpen{
+    width: 30vw;
+}
+
+@media only screen and (max-width: 480px) {
+    #FilterOpen{
+        width: 85vw;
+    }
+}
+
+#closebtn:hover{
+    color:#0094FF;
+    cursor: pointer;
+}
+
+.filterCondition{
+    display: flex;
+    justify-content: space-between;
+    background: #e7ee81;
+    padding: 10px;
+}

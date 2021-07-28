@@ -1,0 +1,19 @@
+.pageBtn{
+    height: 40px;
+    width: 40px;
+    background-color: #E9E9E9;
+    border: none;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+#activenextbtn,.pageBtn:hover{
+    background-color: #0094FF;
+}
+
+.nextPage{
+    margin: 20px auto 20px auto;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+}
