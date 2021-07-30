@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Book1",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "rent"
+    },
+    {
+        "title": "Book2",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "rent"
+    },
+    {
+        "title": "Book3",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "buysell"
+    },
+    {
+        "title": "Book4",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "rent"
+    },
+    {
+        "title": "Book5",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "buysell"
+    },
+    {
+        "title": "Book6",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "buysell"
+    },
+    {
+        "title": "Book7",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "rent"
+    },
+    {
+        "title": "Book8",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "buysell"
+    },
+    {
+        "title": "Book9",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "rent"
+    },
+    {
+        "title": "Book10",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "buysell"
+    },
+    {
+        "title": "Book11",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "rent"
+    },
+    {
+        "title": "Book12",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "rent"
+    },
+    {
+        "title": "Book13",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "rent"
+    },
+    {
+        "title": "Book14",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "buysell"
+    },
+    {
+        "title": "Book15",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "pickup",
+        "status": "rent"
+    },
+    {
+        "title": "Book16",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "rent"
+    },
+    {
+        "title": "Book17",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "buysell"
+    },
+    {
+        "title": "Book18",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "rent"
+    },
+    {
+        "title": "Book19",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "buysell"
+    },
+    {
+        "title": "Book20",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "medium": "delivery",
+        "status": "rent"
+    }
+]

@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import BookApprovalSys from './components/BookApprovalSys';
 import MenuRoundedIcon from '@material-ui/icons/MenuRounded';
 import {useState} from 'react';
+import AllOrders from './components/AllOrders';
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       <div className='main'>
         <Switch>
           <Route exact path='/BookApprovalSys' component={BookApprovalSys}/>
+          <Route exact path='/allOrders' component={AllOrders}/>
         </Switch>
       </div>
     </div>

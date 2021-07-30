@@ -15,14 +15,17 @@
     margin-bottom: 10px;
 }
 
-.btn{
-    border: none;
-    padding: 5px 10px 5px 10px;
-    background-color: #0094FF;
-    color: white;
+.bbtn{
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    width: 106px;
+    height: 31px;
+    right: 17px;
+    top: 16px;
+
+    background: #FFFFFF;
+    border: 2px solid #0094FF;
+    box-sizing: border-box;
+    color: #0094FF;
 }
 
 .bookCard>p{
