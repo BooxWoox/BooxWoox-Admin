@@ -1,16 +1,16 @@
 import React from 'react'
 import ContentBox from './ContentBox'
 
-const BookApprovalSys = () => {
+const AllOrders = () => {
     const initialState={
-        'pending':false,
-        'approved':false
+        'rent':false,
+        'buysell':false
     }
 
-    const tabNames=['Pending Books','Approved Books']
+    const tabNames=['Rent','Buy/Sell']
     return (
         <ContentBox initialState={initialState} tabNames={tabNames}/>
     )
 }
 
-export default BookApprovalSys
+export default AllOrders

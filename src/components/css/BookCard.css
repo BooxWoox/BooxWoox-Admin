@@ -1,0 +1,35 @@
+.bookCard{
+    width:95%;
+    margin: 10px auto 0 auto;
+    border:1px solid #C4C4C4;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cardHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btn{
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: #0094FF;
+    color: white;
+}
+
+.bookCard>p{
+    font-size: smaller;
+}
+
+.cardHeadLeft{
+    padding: 0 20px 0 20px;
+}
+
+.cardBottom{
+    display: flex;
+    justify-content: flex-end;
+}

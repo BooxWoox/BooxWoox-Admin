@@ -1,4 +1,4 @@
-.pageBtn{
+.paginationItem{
     height: 40px;
     width: 40px;
     background-color: #E9E9E9;
@@ -7,13 +7,23 @@
     margin-left: 6px;
 }
 
-#activenextbtn,.pageBtn:hover{
+.paginationItem.active,.paginationItem:hover{
     background-color: #0094FF;
+    color: black;
 }
 
-.nextPage{
+.pagination{
     margin: 20px auto 20px auto;
     width: 95%;
     display: flex;
     justify-content: flex-end;
+}
+
+.disabled{
+    display: none;
+}
+
+.dataContainer{
+    height: 60vh;
+    overflow-y: scroll;
 }

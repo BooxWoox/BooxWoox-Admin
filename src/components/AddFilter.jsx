@@ -9,12 +9,6 @@ const AddFilter = ({ openStatus, close }) => {
                 <h4>+ AddFilter</h4>
                 <h4 id='closebtn' onClick={close}>close x</h4>
             </div>
-            <div className="filterCondition">
-                <h4>condition1 </h4>
-                <h4 id='closebtn' >x</h4>
-            </div>
-
-
         </div>
     )
 }

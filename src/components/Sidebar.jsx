@@ -31,6 +31,10 @@ const Sidebar = ({drawerOpen}) => {
         {
             "name": "Blog Admins",
             "url": '/blogAdmins'
+        },
+        {
+            "name": "Refund Transactions",
+            "url": '/Transactions'
         }
     ]
 
