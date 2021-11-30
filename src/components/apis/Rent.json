@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Book Name",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "pickUp": 1
+    },
+    {
+        "title": "Book2",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "pickUp": 0
+    },
+    {
+        "title": "Book3",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "pickUp": 1
+    },
+    {
+        "title": "Book4",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "pickUp": 0
+    },
+    {
+        "title": "Book5",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos temporibus aliquid reprehenderit, veniam distinctio dolorum consequatur quo iusto magnam tempora officiis, optio ab deserunt.",
+        "pickUp": 0
+    }
+]

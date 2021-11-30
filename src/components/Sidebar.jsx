@@ -26,7 +26,7 @@ const Sidebar = ({drawerOpen}) => {
         },
         {
             "name": "Late Return Alert Section",
-            "url": '/lateReturnAlertSection'
+            "url": '/lateReturn'
         },
         {
             "name": "Blog Admins",
@@ -39,6 +39,8 @@ const Sidebar = ({drawerOpen}) => {
     ]
 
     const location = useLocation().pathname;
+    
+
 
     return (
         <div className="Sidebar" id={drawerOpen?"open":""}>
@@ -46,7 +48,7 @@ const Sidebar = ({drawerOpen}) => {
                 {Links.map((link) => {
                     return (
                         <div className={location.startsWith(link.url)?'links activemenu':'links'} key={link.url}>
-                            <NavLink exact to={link.url} activeClassName='active'>
+                            <NavLink id='sidebarLink' exact to={link.url} activeClassName='active'>
                                 <p>{link.name}</p>
                             </NavLink>
                         </div>

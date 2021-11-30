@@ -1,15 +1,14 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-// import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import './css/Login.css'
 
 const Login = () => {
-    // const history = useHistory();
+    const history = useHistory();
 
     const [input, setInput] = useState({
-        email: "",
-        password: "",
-        type: "admin"
+        username: "",
+        password: ""
     });
 
     let name, value;
@@ -24,27 +23,33 @@ const Login = () => {
     async function handleLogin(e) {
         e.preventDefault();
 
+
         try {
-            const res = await axios.post('https://5fckdyqh3c.execute-api.ap-south-1.amazonaws.com/Prod/admincourierlogin', input, {
+            const res = await axios.post('https://tgc45m62ij.execute-api.ap-south-1.amazonaws.com/Prod/user/login', input, {
                 headers: {
-                    'Access-Control-Allow-Origin': '*',
-                    'Accept': 'application/json'
+                    'Accept': 'application/json',
+                    'Content-Type':'application/json'
                 }
             });
 
-            console.log(res);
+            const token = await res.data.authToken;
+            sessionStorage.setItem('token', token);
+
+            if(token!=null){
+                history.push('/bookApproval');
+            }
+
 
         } catch (error) {
             console.log(error);
         }
 
-        // history.push('/changePassword');
     }
-    
+
     return (
         <form className='loginForm' onSubmit={(e) => handleLogin(e)}>
             <h4>Login</h4>
-            <input name='email' type="email" placeholder='E-mail' onChange={handleInput} required />
+            <input name='username' type="email" placeholder='E-mail' onChange={handleInput} required />
             <input name='password' type="password" placeholder='Password' onChange={handleInput} required />
             <button type='submit'>Submit</button>
         </form>

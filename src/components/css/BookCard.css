@@ -2,7 +2,7 @@
     width:95%;
     margin: 10px auto 0 auto;
     border:1px solid #C4C4C4;
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     position: relative;
     box-sizing: border-box;
 }
@@ -25,11 +25,11 @@
     font-size: smaller;
 }
 
-.cardHeadLeft{
-    padding: 0 20px 0 20px;
-}
-
 .cardBottom{
     display: flex;
     justify-content: flex-end;
+}
+
+.icon{
+    padding-right: 10px;
 }

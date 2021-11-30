@@ -1,46 +1,46 @@
-.Sidebar{
-    width: 30vw;
-    height: 100vh;
-    background:#FFFFFF;
-    overflow: hidden;
+.Sidebar {
+  width: 30vw;
+  height: 100vh;
+  background: #ffffff;
+  overflow: hidden;
 }
 
-.menu{
-    position: relative;
-    top:90px;
-    left: 0;
+.menu {
+  position: relative;
+  top: 90px;
+  left: 0;
 }
 
-.links{
-    padding: 20px;
+.links {
+  padding: 20px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-size: larger;
+#sidebarLink {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
 }
 
-.active{
-    font-weight: bold;
-    color:#0094FF;
+.active {
+  font-weight: bold;
+  color: #0094ff;
 }
 
-.activemenu{
-    background-color: #E0EEF9;
+.activemenu {
+  background-color: #e0eef9;
 }
 
 @media only screen and (max-width: 480px) {
-    .Sidebar{
-        position: absolute;
-        top:0;
-        left:-85vw;
-        z-index: 5;
-        width:85vw;
-        transition: left 1s;
-        }
+  .Sidebar {
+    position: absolute;
+    top: 0;
+    left: -85vw;
+    z-index: 5;
+    width: 85vw;
+    transition: left 1s;
+  }
 
-    #open{
-        left:0vw;
-    }
+  #open {
+    left: 0vw;
+  }
 }

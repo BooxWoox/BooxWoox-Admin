@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Borrower Name 1",
+        "contactNo": "7654321096",
+        "endDate": "DD/MM/YY",
+        "dayRemaining": "2 day"
+    },
+    {
+        "name": "Borrower Name 2",
+        "contactNo": "7654321096",
+        "endDate": "DD/MM/YY",
+        "dayRemaining": "2 day"
+    },
+    {
+        "name": "Borrower Name 3",
+        "contactNo": "7654321096",
+        "endDate": "DD/MM/YY",
+        "dayRemaining": "2 day"
+    },
+    {
+        "name": "Borrower Name 4",
+        "contactNo": "7654321096",
+        "endDate": "DD/MM/YY",
+        "dayRemaining": "2 day"
+    }
+]

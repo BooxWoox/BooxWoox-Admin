@@ -1,23 +1,27 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './css/BookCard.css'
-import DeleteRoundedIcon from '@material-ui/icons/DeleteRounded';
-import EditIcon from '@material-ui/icons/Edit';
+import { CardType } from './BookApprovalSys'
 
 
 const BookCard = ({ book }) => {
+
+    const type = useContext(CardType);
+
     return (
         <div className="bookCard" key={book.title}>
             <div className="cardHead">
                 <h4>{book.title}</h4>
                 <div className="cardHeadLeft">
-                    <EditIcon color='primary' />
-                    <DeleteRoundedIcon color='error' />
+                    <img src="edit.svg" alt="" style={{ paddingRight: '10px' }} />
+                    <img src="delete.svg" alt="" style={{ paddingleft: '10px' }} />
                 </div>
             </div>
 
             <p>{book.desc}</p>
             <div className="cardBottom">
-                <button className='btn'>Approve</button>
+                {type === 'pending' ? <button className='btn' style={{ backgroundColor: '#0094FF' }}>Approve</button>
+                    : <button className='btn'>Disapprove</button>}
+
             </div>
 
 

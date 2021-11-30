@@ -24,6 +24,5 @@
 }
 
 .dataContainer{
-    height: 60vh;
-    overflow-y: scroll;
+    min-height: 58vh;
 }

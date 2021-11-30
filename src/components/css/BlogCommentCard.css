@@ -1,0 +1,10 @@
+#commentCard {
+  width: 90%;
+  padding: 10px 10px 20px 10px;
+  margin: 0 auto 0 auto;
+}
+
+#commentCardTop {
+  display: flex;
+  padding-bottom: 5px;
+}
