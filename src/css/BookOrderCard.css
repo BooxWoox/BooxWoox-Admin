@@ -1,0 +1,13 @@
+.pickupbtn{
+    border: 2px solid #0094FF;
+    color:#0094FF;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 10px;
+}
+
+.deliverbtn{
+    border: 2px solid #FFAE00;
+    color:#FFAE00;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 10px;
+}

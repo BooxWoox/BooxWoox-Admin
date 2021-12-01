@@ -1,0 +1,55 @@
+.Container{
+    background-color: #FFFFFF;
+    width: 97%;
+    height: 87vh;
+    margin: 72px auto 0 auto;
+}
+
+.Tabs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Tabs>p{
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.Tabs>p:hover,#activeTab{
+    font-weight: bold;
+    color:#0094FF;
+    border-bottom: 2px solid #0094FF;
+}
+
+
+
+.form{
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+
+    border-bottom: 2px solid #E9E9E9;
+}
+
+.searchbox{
+    padding: 5px;
+    border:1px solid #959595;
+    outline: none;
+}
+
+.filterbtn{
+    padding: 5px 10px 5px 10px;
+    border:1px solid #0094FF;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,9 +1,8 @@
 .bookCard{
     width:95%;
-    height: 18vh;
     margin: 10px auto 0 auto;
     border:1px solid #C4C4C4;
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
     position: relative;
     box-sizing: border-box;
 }
@@ -20,15 +19,17 @@
     padding: 5px 10px 5px 10px;
     background-color: #0094FF;
     color: white;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
 }
 
 .bookCard>p{
     font-size: smaller;
 }
 
-.cardHeadLeft{
-    padding: 0 20px 0 20px;
+.cardBottom{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    padding-right: 10px;
 }
