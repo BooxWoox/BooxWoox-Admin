@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import './css/BlogAdminComments.css'
-import Pagignation from './Pagignation'
+import '../css/BlogAdminComments.css'
+import Pagignation from '../components/Pagignation'
 import { Link, useParams } from 'react-router-dom'
-import NormalBlogs from './apis/NormalBlogs.json'
-import SpecialBlogs from './apis/SpecialBlogs.json'
+import NormalBlogs from '../apis/NormalBlogs.json'
+import SpecialBlogs from '../apis/SpecialBlogs.json'
 
 const BlogAdminComments = () => {
   const { type, blogID } = useParams()
@@ -14,10 +14,13 @@ const BlogAdminComments = () => {
     let blog
     switch (type) {
       case 'normal':
-        blog = NormalBlogs.filter((b) => blogID == b._id)
+        blog = NormalBlogs.filter((b) => blogID === b._id.toString())
         break
       case 'special':
-        blog = SpecialBlogs.filter((b) => blogID == b._id)
+        blog = SpecialBlogs.filter((b) => blogID === b._id.toString())
+        break
+      default:
+        blog = NormalBlogs.filter((b) => blogID === b._id.toString())
     }
     setComments(blog[0].comments)
   }, [blogID, type])

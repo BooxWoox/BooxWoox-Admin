@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import './css/BookOrderCard.css'
-import './css/BookCard.css'
-import { CardType } from './AllOrders'
+import '../css/BookOrderCard.css'
+import '../css/BookCard.css'
+import { CardType } from '../pages/AllOrders'
 
 const BookOrderCard = ({ book }) => {
   const type = useContext(CardType)

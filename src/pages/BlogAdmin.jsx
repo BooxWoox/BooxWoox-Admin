@@ -1,18 +1,12 @@
 import React, { useState, createContext } from 'react'
-import './css/Content.css'
-import NormalBlogs from './apis/NormalBlogs.json'
-import SpecialBlogs from './apis/SpecialBlogs.json'
-import Pagignation from './Pagignation'
+import '../css/Content.css'
+import NormalBlogs from '../apis/NormalBlogs.json'
+import SpecialBlogs from '../apis/SpecialBlogs.json'
+import Pagignation from '../components/Pagignation'
 import FilterListIcon from '@material-ui/icons/FilterList'
-import AddFilter from './AddFilter'
+import AddFilter from '../components/AddFilter'
 
 const CardType = createContext()
-
-const backArrow = {
-  width: '90%',
-  padding: '10px',
-  margin: '0 auto 0 auto',
-}
 
 const BlogAdmin = () => {
   const tabNames = ['Special Blogs', 'Normal Blogs']

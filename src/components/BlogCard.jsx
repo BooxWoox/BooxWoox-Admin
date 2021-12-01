@@ -1,18 +1,18 @@
 import React, { useContext } from 'react'
-import './css/BookCard.css'
-import { CardType } from './BlogAdmin'
+import '../css/BlogCard.css'
+import { CardType } from '../pages/BlogAdmin'
 import { Link } from 'react-router-dom'
 
 const BlogCard = ({ blog }) => {
   const type = useContext(CardType)
 
   return (
-    <div className="bookCard" key={blog.BlogName}>
-      <div className="cardHead">
+    <div className="blogCard" key={blog.BlogName}>
+      <div className="blogCardHead">
         <h4>{blog.BlogName}</h4>
 
         <div
-          className="cardHeadLeft"
+          className="blogCardHeadLeft"
           style={{
             padding: 0,
             display: 'flex',
@@ -20,9 +20,9 @@ const BlogCard = ({ blog }) => {
             alignItems: 'center',
           }}
         >
-          <img src="edit.svg" alt="" className="icon" />
+          <img src="edit.svg" className="icon" alt="" />
           {!blog.published ? (
-            <img src="delete.svg" className="icon" />
+            <img src="delete.svg" className="icon" alt="" />
           ) : (
             <button
               className="btn"
@@ -78,7 +78,7 @@ const BlogCard = ({ blog }) => {
             </u>
           </div>
         ) : (
-          ''
+          <div></div>
         )}
 
         {!blog.published ? (
@@ -86,7 +86,7 @@ const BlogCard = ({ blog }) => {
             Approve
           </button>
         ) : (
-          <button style={{ float: 'right' }} className="btn">
+          <button style={{ backgroundColor: '#F84A4A' }} className="btn">
             Delete
           </button>
         )}

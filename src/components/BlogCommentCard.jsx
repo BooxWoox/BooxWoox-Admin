@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/BlogCommentCard.css'
+import '../css/BlogCommentCard.css'
 
 const BlogCommentCard = ({ comment }) => {
   return (

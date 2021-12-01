@@ -1,4 +1,4 @@
-import './css/Pagignation.css'
+import '../css/Pagignation.css'
 import { useState } from 'react'
 import BookCard from './BookCard'
 import BookOrderCard from './BookOrderCard'
